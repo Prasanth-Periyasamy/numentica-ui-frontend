@@ -1,0 +1,64 @@
+/* .contact-info {
+  position: relative;
+} */
+.contact-info::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 28%;
+  height: 4px; /* Adjust the height of the line as needed */
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.info-gradient {
+  background-image: linear-gradient(to right top, #2799d5, #2186ba, #1c74a0, #186287, #14506f);
+}
+
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root {
+  color: #232323 !important;
+}
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+  color: #232323 !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: 'Figtree', sans-serif !important;
+}
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input::placeholder {
+  color: #8d8d8d !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: 'Figtree', sans-serif !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid black !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  color: #232323 !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: 'Figtree', sans-serif !important;
+  padding: 23px 28px 6px 1px !important;
+}
+
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+  right: 0 !important;
+  top: calc(50% - 4px) !important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  padding: 0 !important;
+}
+
+.css-10hburv-MuiTypography-root {
+  color: #232323 !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: 'Figtree', sans-serif !important;
+}

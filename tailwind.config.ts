@@ -1,0 +1,68 @@
+import type { Config } from 'tailwindcss';
+
+const config: Config = {
+  content: [
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    screens: {
+      '4xl': { min: '2560px' },
+      '3xl': { max: '2560px' },
+      '2xl': { max: '1536px' },
+      xl: { max: '1279px' },
+      lg: { max: '1023px' },
+      md: { max: '767px' },
+      sm: { max: '639px' },
+      xs: { max: '400px' },
+    },
+    extend: {
+      colors: {
+        'dark-charcoal': '#353535',
+        'btn-color': '#00A9FF',
+        logo: '#fdc500',
+        primaryBorder: '#dadada',
+        secondaryBorder: '#C1EAFF',
+        servicesBorder: '#D5D5D5',
+      },
+      fontFamily: {
+        primary: ['Figtree', 'sans-serif'],
+        secondary: ['Raleway', 'sans-serif'],
+      },
+      spacing: {
+        '1.5px': '1.5px',
+        '7px': '7px',
+        '8.5px': '8.5px',
+        '16px': '16px',
+        '24px': '24px',
+        '30px': '30px',
+        '32px': '32px',
+        '35px': '35px',
+        '50px': '50px',
+        '58px': '58px',
+        '66px': '66px',
+        '70px': '70px',
+        '86px': '86px',
+        '90px': '90px',
+        '108px': '108px',
+        '112px': '112px',
+        '134px': '134px',
+        '250px': '250px',
+        '314px': '314px',
+        '400px': '400px',
+        350: '87.5rem' /* 1400px */,
+        '5.5%': '5.5%',
+        '16%': '16%',
+        '50%': '50%',
+        '70%': '70%',
+        '78%': '78%',
+        '83%': '83%',
+        '90%': '90%',
+        '91%': '91%',
+      },
+    },
+  },
+  plugins: [],
+};
+export default config;
