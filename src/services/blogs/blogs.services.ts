@@ -23,7 +23,7 @@ export const getUniqueBlogData = async (params: string) => {
     query: uniqueBlogQuery,
     variables: {
       publicationState: 'PUBLISHED',
-      documentId: 't5evdggixd53ovt5fxzlxiv0',
+      documentId: 'e5b4eth2b8o00ta5bliufv0m',
     },
     fetchPolicy: 'no-cache',
   });

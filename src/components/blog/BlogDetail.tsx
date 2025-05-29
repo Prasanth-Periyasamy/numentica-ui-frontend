@@ -37,17 +37,16 @@ const BlogDetail = ({ blogContent, title, description }: BlogDetailProps) => {
   }, [blogContent]);
 
   return (
-    <section className="my-10 grid grid-cols-[35%_62%] gap-2">
-      <div className="space-y-4">
+    <section className="my-10 grid grid-cols-[35%_62%] gap-2 lg:grid-cols-1">
+      <div className="space-y-4 lg:order-2">
         {blogContent?.map((blog) => {
           const id = `section-${blog?.id}`;
           const isActive = activeId === id;
-
           return (
             <a
               key={id}
               href={`#${id}`}
-              className={`block cursor-pointer border-l-2 pl-2 font-secondary text-[16px] ${
+              className={`block cursor-pointer border-l-2 pl-2 font-secondary text-[16px] lg:hidden ${
                 isActive ? 'border-black font-semibold text-black' : 'border-transparent text-gray-500'
               }`}
             >

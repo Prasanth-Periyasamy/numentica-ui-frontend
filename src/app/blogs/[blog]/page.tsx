@@ -1,5 +1,4 @@
 import BlogDetail from '@/components/blog/BlogDetail';
-import RichText from '@/components/richText';
 import { apiUrl } from '@/config';
 import { blogService } from '@/services';
 import Image from 'next/image';
@@ -15,7 +14,7 @@ const Blog = async ({ params }: { params: { blog: string } }) => {
     params?.blog?.toLowerCase(),
   );
   return (
-    <div className="mx-auto max-w-350">
+    <div className="mx-auto max-w-350 px-4">
       <section className="mt-10">
         <h1 className="text-center font-secondary font-normal">{title}</h1>
         <p className="mb-10 text-center font-primary text-[20px]">{description}</p>

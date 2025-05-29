@@ -7,6 +7,7 @@ export * as footerService from './footer/footer.services';
 export * as teamService from './team/team.services';
 export * as solutionService from './solution/solution.services';
 export * as careersService from './careers/careers.services';
+export * as homeService from './home/home.services';
 
 // Exporting all types from the services
 export * from './about-us/about-us.types';
@@ -17,3 +18,4 @@ export * from './footer/footer.types';
 export * from './team/team.types';
 export * from './solution/solution.types';
 export * from './careers/careers.types';
+export * from './home/home.types';

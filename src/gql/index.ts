@@ -5,4 +5,5 @@ export { default as footerQuery } from './footer.gql';
 export { default as teamQuery } from './team.gql';
 export { default as solutionQuery } from './solution.gql';
 export { default as careersQuery } from './careers.gql';
+export { default as homeQuery } from './home.gql';
 export * as blogsQuery from './blogs.gql';

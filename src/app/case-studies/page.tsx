@@ -8,14 +8,10 @@ const CaseStudy = async () => {
   const { heroSection, case_studies } = await caseStudyService?.getCaseStudyData();
   const { id, description, title } = heroSection || {};
   return (
-    <main className="mb-14 grid grid-cols-[23%_72%] gap-8 px-[90px] pt-10 lg:px-8 sm:px-2">
+    <main className="mb-14 grid grid-cols-[23%_72%] gap-8 px-[90px] pt-10 lg:grid-cols-1 lg:px-8 sm:px-2">
       <section>
         <h1 className="pb-4 font-secondary capitalize">{title}</h1>
-        <RichText
-          data={description}
-          //   paragraphStyles={'my-0 text-left text-black text-base leading-8 px-2'}
-          //   linkStyles="hover:text-locationBox"
-        />
+        <RichText data={description} />
       </section>
       <section>
         <div className="flex flex-col">

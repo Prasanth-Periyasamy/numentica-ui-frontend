@@ -7,6 +7,10 @@ const careersQuery = gql`
         ... on ComponentCommonTitleWithDescription {
           title
           description
+          image {
+            alternativeText
+            url
+          }
         }
       }
     }

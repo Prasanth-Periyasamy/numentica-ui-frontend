@@ -17,12 +17,12 @@ const SolutionService = ({ servicesContent, services }: SolutionServiceProps) =>
     setSelectedService(id);
   };
   return (
-    <>
-      <section className="bg-[#171717]">
-        <div className="max-w-350 mx-auto grid grid-cols-[25%_72%] gap-6 py-16">
-          <div>
+    <div>
+      <section className="bg-[#171717] px-4">
+        <div className="mx-auto grid max-w-350 grid-cols-[25%_72%] gap-6 py-16 lg:grid-cols-1">
+          <div className="">
             <h2 className="font-secondary text-[28px] font-semibold text-white">{servicesContent?.title}</h2>
-            <RichText data={servicesContent?.description} paragraphStyles="font-primary text-white" />
+            <RichText data={servicesContent?.description} paragraphStyles="font-primary text-white lg:hidden" />
           </div>
           <div>
             {services?.map((service) => {
@@ -43,7 +43,7 @@ const SolutionService = ({ servicesContent, services }: SolutionServiceProps) =>
           </div>
         </div>
       </section>
-      <section className="max-w-350 mx-auto">
+      <section className="mx-auto max-w-350 px-4">
         {services?.map((service) => {
           if (selectedService === service?.id) {
             const { title, id, description, image } = service || {};
@@ -64,7 +64,7 @@ const SolutionService = ({ servicesContent, services }: SolutionServiceProps) =>
           }
         })}
       </section>
-    </>
+    </div>
   );
 };
 

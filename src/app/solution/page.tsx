@@ -7,7 +7,7 @@ const Solution = async () => {
 
   return (
     <main>
-      <section className="max-w-350 mx-auto">
+      <section className="mx-auto max-w-350 lg:px-4">
         <h1 className="my-10 w-[58%] font-secondary text-black">{heroSection?.title}</h1>
         <RichText data={heroSection?.description} paragraphStyles="font-primary" />
       </section>

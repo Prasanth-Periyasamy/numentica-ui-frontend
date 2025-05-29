@@ -25,7 +25,7 @@ const CareersForm = () => {
       <div>
         <TextField id="standard-basic" label="Comments" variant="standard" className="mb-6 w-full" />
       </div>
-      <div>
+      <div className="mt-4">
         <button className="block w-full rounded-[10px] bg-black py-2 font-secondary font-bold text-white">
           Apply Now
         </button>

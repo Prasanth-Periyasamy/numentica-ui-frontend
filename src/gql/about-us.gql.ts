@@ -16,6 +16,10 @@ const aboutUsQuery = gql`
         id
         title
         description
+        image {
+          alternativeText
+          url
+        }
       }
       testimonialTitle
       testimonials {
