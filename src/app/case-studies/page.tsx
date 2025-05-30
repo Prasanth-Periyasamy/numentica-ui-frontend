@@ -19,7 +19,7 @@ const CaseStudy = async () => {
             const { caseStudyId, caseStudyPhoto, title, description } = caseStudy;
             const { name, alternativeText = '', url } = caseStudyPhoto || {};
             return (
-              <div key={caseStudyId} className="flex  gap-4 border-b border-solid border-[#DDDDDD] pb-7 pt-7">
+              <div key={caseStudyId} className="border-gainsBoro  flex gap-4 border-b border-solid pb-7 pt-7">
                 <div className="h-[150px] w-[300px]">
                   <Image
                     src={`${apiUrl}${url}`}

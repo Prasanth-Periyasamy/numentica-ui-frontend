@@ -27,6 +27,13 @@ const config: Config = {
         servicesBorder: '#D5D5D5',
         boulder: '#797979',
         cinder: '#171717',
+        softPeach: '#F0EEEE',
+        darkGreen: '#232323',
+        brightBlue: '#0063F7',
+        gainsBoro: '#DDDDDD',
+        greenHaze: '#04A56B',
+        whiteSmoke: '#F6F6F6',
+        mintyGreen: '#0EF393',
       },
       fontFamily: {
         primary: ['Figtree', 'sans-serif'],

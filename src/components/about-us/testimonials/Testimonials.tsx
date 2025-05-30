@@ -39,8 +39,8 @@ const Testimonials = ({ testimonialTitle, testimonials }: TestimonialsProps) => 
             const { alternativeText = '', url = '' } = profilePhoto || {};
             return (
               <div key={id} className="relative flex-1 border border-solid">
-                <div className="absolute -top-1 inline-block h-1 w-14 rounded-3xl bg-gradient-to-r from-[#0063F7] to-[#0EF393]"></div>
-                <div className="flex items-center gap-2 bg-[#171717] px-5 py-4">
+                <div className="from-brightBlue to-mintyGreen absolute -top-1 inline-block h-1 w-14 rounded-3xl bg-gradient-to-r"></div>
+                <div className="flex items-center gap-2 bg-cinder px-5 py-4">
                   <div className="size-12 overflow-hidden rounded-full">
                     <Image src={`${apiUrl}${url}`} alt={alternativeText} width={10} height={10} />
                   </div>
@@ -65,8 +65,8 @@ const Testimonials = ({ testimonialTitle, testimonials }: TestimonialsProps) => 
             const { alternativeText = '', url = '' } = profilePhoto || {};
             return (
               <div key={id} className="relative flex-1 border border-solid">
-                <div className="absolute -top-1 inline-block h-1 w-14 rounded-3xl bg-gradient-to-r from-[#0063F7] to-[#0EF393]"></div>
-                <div className="flex items-center gap-2 bg-[#171717] px-5 py-4">
+                <div className="from-brightBlue to-mintyGreen absolute -top-1 inline-block h-1 w-14 rounded-3xl bg-gradient-to-r"></div>
+                <div className="flex items-center gap-2 bg-cinder px-5 py-4">
                   <div className="size-12 overflow-hidden rounded-full">
                     <Image src={`${apiUrl}${url}`} alt={alternativeText} width={10} height={10} />
                   </div>

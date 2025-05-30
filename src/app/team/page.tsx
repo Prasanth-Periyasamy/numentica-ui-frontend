@@ -27,8 +27,8 @@ const Team = async () => {
                     <Image src={`${apiUrl}${url}`} alt={alternativeText} width={100} height={100} />
                   </div>
                   <h3 className="text-xl font-semibold">{name}</h3>
-                  <p className="text-[#232323]">{position}</p>
-                  <p className="text-[#232323]">{companyName}</p>
+                  <p className="text-darkGreen">{position}</p>
+                  <p className="text-darkGreen">{companyName}</p>
                 </div>
               );
             })}
@@ -47,8 +47,8 @@ const Team = async () => {
                   <Image src={`${apiUrl}${url}`} alt={alternativeText} width={100} height={100} />
                 </div>
                 <h3 className="text-xl font-semibold">{name}</h3>
-                <p className="text-[#232323]">{position}</p>
-                <p className="text-[#232323]">{companyName}</p>
+                <p className="text-darkGreen">{position}</p>
+                <p className="text-darkGreen">{companyName}</p>
               </div>
             );
           })}

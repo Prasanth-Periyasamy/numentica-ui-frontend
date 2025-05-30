@@ -32,7 +32,7 @@ const Header = ({ header }: HeaderDataType) => {
   }, [animationDelay]);
 
   return (
-    <header className="bg-[#F6F6F6]">
+    <header className="bg-whiteSmoke">
       <div className="pl- m-auto mx-4 flex max-w-350 items-center justify-between gap-4 pb-4 pt-4 lg:px-10 sm:px-2">
         <div className="flex w-full items-center gap-4 lg:justify-between lg:gap-1">
           <div className="relative inline-block h-9 w-66px sm:h-8 sm:w-50px">

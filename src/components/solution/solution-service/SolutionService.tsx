@@ -18,7 +18,7 @@ const SolutionService = ({ servicesContent, services }: SolutionServiceProps) =>
   };
   return (
     <div>
-      <section className="bg-[#171717] px-4">
+      <section className="bg-cinder px-4">
         <div className="mx-auto grid max-w-350 grid-cols-[25%_72%] gap-6 py-16 lg:grid-cols-1">
           <div className="">
             <h2 className="font-secondary text-[28px] font-semibold text-white">{servicesContent?.title}</h2>
@@ -30,7 +30,7 @@ const SolutionService = ({ servicesContent, services }: SolutionServiceProps) =>
               return (
                 <div
                   key={id}
-                  className="flex items-center justify-between gap-2 border-b border-solid border-[#F0EEEE] py-4"
+                  className="border-softPeach flex items-center justify-between gap-2 border-b border-solid py-4"
                   onClick={() => handleService(id)}
                 >
                   <h3 className="font-primary text-xl font-semibold text-white">{title}</h3>

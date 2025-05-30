@@ -14,7 +14,7 @@ const Footer = ({ footer }: FooterDataType) => {
 
   return (
     <div>
-      <div className="-mb-76px relative m-auto grid max-w-350 grid-cols-5 items-center gap-4 rounded-lg bg-gradient-to-r from-[#2799D5] to-[#04A56B] px-14 py-10 2xl:mx-4 lg:grid-cols-1 lg:px-2 lg:py-4">
+      <div className="to-greenHaze relative m-auto -mb-76px grid max-w-350 grid-cols-5 items-center gap-4 rounded-lg bg-gradient-to-r from-[#2799D5] px-14 py-10 2xl:mx-4 lg:grid-cols-1 lg:px-2 lg:py-4">
         <div className="col-span-2">
           <h3 className="font-primary text-lg font-bold text-white lg:text-sm">{news?.title}</h3>
           <RichText
@@ -46,7 +46,7 @@ const Footer = ({ footer }: FooterDataType) => {
           />
         </div>
         <div className="col-span-1">
-          <button className="h-10 w-32 overflow-hidden rounded-lg bg-gradient-to-r from-[#0063F7] via-[#0EF393] to-[#FDC500] p-[2px] font-secondary text-base font-bold text-white lg:w-full">
+          <button className="from-brightBlue via-mintyGreen h-10 w-32 overflow-hidden rounded-lg bg-gradient-to-r to-[#FDC500] p-[2px] font-secondary text-base font-bold text-white lg:w-full">
             <div className="flex h-full w-full items-center justify-center overflow-hidden rounded-lg bg-black text-white">
               {subscribe?.name}
             </div>
@@ -108,7 +108,7 @@ const Footer = ({ footer }: FooterDataType) => {
           </div>
         </div>
       </div>
-      <p className="bg-cinder border-t border-boulder py-3 text-center text-boulder md:text-xs">{copyRight}</p>
+      <p className="border-t border-boulder bg-cinder py-3 text-center text-boulder md:text-xs">{copyRight}</p>
     </div>
   );
 };

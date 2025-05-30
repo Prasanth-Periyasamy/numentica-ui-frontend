@@ -21,7 +21,7 @@ const Careers = async () => {
           className="absolute inset-0 z-50 object-cover"
         />
       </div>
-      <div className="mx-auto my-14 grid max-w-350 grid-cols-2 gap-12 rounded-2xl border border-solid border-[#DDDDDD] 2xl:mx-4 lg:relative lg:z-10 lg:-mt-12 lg:grid-cols-1 lg:bg-white">
+      <div className="mx-auto my-14 grid max-w-350 grid-cols-2 gap-12 rounded-2xl border border-solid border-black 2xl:mx-4 lg:relative lg:z-10 lg:-mt-12 lg:grid-cols-1 lg:bg-white">
         <div className="items-left relative flex flex-col justify-center rounded-l-lg bg-black px-7 pb-52 text-left lg:hidden">
           <h1 className="font-secondary text-white">{title}</h1>
           <RichText data={description} paragraphStyles="font-primary text-[20px] text-white" />

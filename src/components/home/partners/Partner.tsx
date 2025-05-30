@@ -28,7 +28,7 @@ interface PartnerPageProps {
 
 const Partner = ({ partnersSection }: PartnerPageProps) => {
   return (
-    <section className="mx-auto max-w-350 bg-gradient-to-r from-[#2799D5] to-[#04A56B] py-12">
+    <section className="to-greenHaze mx-auto max-w-350 bg-gradient-to-r from-[#2799D5] py-12">
       <Slider {...settings}>
         {partnersSection?.map((partner) => {
           const { id, btnName, description, partnerPhoto, title } = partner || {};

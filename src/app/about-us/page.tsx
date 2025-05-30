@@ -49,10 +49,10 @@ const AboutUs = async () => {
         </div>
       </section>
       <Testimonials testimonialTitle={testimonialTitle} testimonials={testimonials} />
-      <section className="mx-4 my-12 rounded-2xl bg-[#171717] pb-3">
+      <section className="mx-4 my-12 rounded-2xl bg-cinder pb-3">
         <h4 className="mb-5 pt-5 text-center font-secondary text-xl font-semibold text-white">{collaborate?.title}</h4>
         <RichText data={collaborate?.description} paragraphStyles="text-white text-center mb-5" />
-        <button className="mx-auto block h-10 w-32 overflow-hidden rounded-lg bg-gradient-to-r from-[#0063F7] via-[#0EF393] to-[#FDC500] p-[2px] font-secondary text-base font-bold text-white">
+        <button className="from-brightBlue via-mintyGreen mx-auto block h-10 w-32 overflow-hidden rounded-lg bg-gradient-to-r to-[#FDC500] p-[2px] font-secondary text-base font-bold text-white">
           <div className="flex h-full w-full items-center justify-center overflow-hidden rounded-lg bg-black text-white">
             {getinTouch?.name}
           </div>

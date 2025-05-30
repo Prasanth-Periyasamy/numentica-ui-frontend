@@ -140,8 +140,8 @@ const ContactUs = () => {
 
   return (
     <main>
-      <h1 className="text-center text-[#232323]">Contact Us</h1>
-      <p className="text-center text-lg text-[#232323]">Any question or remarks? Just write us a message!</p>
+      <h1 className="text-darkGreen text-center">Contact Us</h1>
+      <p className="text-darkGreen text-center text-lg">Any question or remarks? Just write us a message!</p>
       <div className="mt-5 flex items-start gap-6">
         <div className="info-gradient w-[40%] bg-red-200 px-6 py-9 text-white">
           <h3 className=" contact-info relative mb-8 font-semibold text-inherit">Contact Information</h3>
@@ -293,7 +293,7 @@ const ContactUs = () => {
             {errors.message && <div className="error text-10px text-left text-red-500">{errors.message.message}</div>}
           </div>
           <div className="flex w-full items-end">
-            <Button type="submit" btnName="Submit" handleClick={() => {}} className="font- ml-auto bg-[#0063F7]" />
+            <Button type="submit" btnName="Submit" handleClick={() => {}} className="font- bg-brightBlue ml-auto" />
           </div>
         </form>
       </div>
